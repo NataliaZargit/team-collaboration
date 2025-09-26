@@ -17,7 +17,7 @@ def list_all_files(root_dir):
 
 if __name__ == "__main__":
     repo_name = get_git_repo_name()
-    print(f"Hello, World! The git repo name is: {repo_name}")
+    print(f"Hello, Nata! The git repo name is: {repo_name}")
     print("Files in the project:")
     project_root = os.path.abspath(os.getcwd())
     while project_root != os.path.dirname(project_root):
